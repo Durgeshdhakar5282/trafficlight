@@ -1,0 +1,59 @@
+#trafficlightbox 
+{
+   width:140px;
+   Height:370px;
+   border-width:3px;
+   border-style:solid;
+
+}
+
+#redlight
+{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    border-radius: 50%;
+    margin:20px;
+}
+
+#yellowlight
+{
+    width: 100px;
+    height:100px;
+    background-color:yellow;
+    border-radius: 50%;
+    margin:20px;
+}
+
+#greenlight
+{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stand
+{
+width: 30px;
+height:180px;
+background: black;
+margin: 0 auto;
+}
+
+.base
+{
+width: 120px;
+height:35px;
+background:black;
+margin: 5px auto;
+border-radius: 5px;
+}
